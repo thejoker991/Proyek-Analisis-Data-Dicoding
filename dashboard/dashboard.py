@@ -6,8 +6,8 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 sns.set(style='dark')
 
-hours_df = pd.read_csv('thejoker991/proyek-analisis-data-dicoding/main/dashboard/hours.csv')
-days_df = pd.read_csv ('thejoker991/proyek-analisis-data-dicoding/main/dashboard/days.csv')
+hours_df = pd.read_csv('https://raw.githubusercontent.com/thejoker991/Proyek-Analisis-Data-Dicoding/main/dashboard/hours.csv')
+days_df = pd.read_csv ('https://raw.githubusercontent.com/thejoker991/Proyek-Analisis-Data-Dicoding/main/dashboard/days.csv')
 
 st.header("Bike-Sharing Dashboard")
 
