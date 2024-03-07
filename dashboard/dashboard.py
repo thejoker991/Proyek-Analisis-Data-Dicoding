@@ -6,8 +6,8 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 sns.set(style='dark')
 
-hours_df = pd.read_csv('D:\File Penting\Kuliah\BANGKIT\Proyek-Akhir-Analisis-Data\dashboard\hours.csv')
-days_df = pd.read_csv ('D:\File Penting\Kuliah\BANGKIT\Proyek-Akhir-Analisis-Data\dashboard\days.csv')
+hours_df = pd.read_csv('hours.csv')
+days_df = pd.read_csv ('days.csv')
 
 st.header("Bike-Sharing Dashboard")
 
